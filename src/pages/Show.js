@@ -18,7 +18,7 @@ function Show (props){
             <h2>Update Todo</h2>
             <Form method="post" action={`/update/${post.id}`}>
                 <input type="text"
-                name="subject" placeholder="Subject" defaultCalue={post.subject}/>
+                name="subject" placeholder="Subject" defaultValue={post.subject}/>
                 <input type="text" name="details"
                 defaultValue={post.details}/>
                 <button>Update Todo</button>
